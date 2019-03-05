@@ -5,7 +5,8 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-      <p>Registered Office: Henry Morgan House, Industry Road, Carlton, Barnsley S71 3PQ </p>
+      <p>Regd. Office: QTC Ltd, Barleycroft House, 5a Barleycroft Lane, Dinnington</p>
+      <p>Sheffield S25 2LE</p>
       <p>Tel: 07710 506269</p>
       <p>Email: info@qtc-ltd.co.uk</p>
       <p>VAT Reg No: 828 2280 26 &nbsp; &nbsp; Company Reg No: 4884683</p>
