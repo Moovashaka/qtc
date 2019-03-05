@@ -49,3 +49,19 @@ min-width: 100%;
 bottom: 0;
 position: absolute;
 }
+.Footer a {
+  text-decoration: none;
+  display: flex;
+  justify-content: right;
+  font-size: .75em;
+  color: #e3e6ea;
+  bottom: 0;
+}
+.Footer a:visited {
+  text-decoration: none;
+  display: flex;
+  justify-content: right;
+  font-size: .75em;
+  color: #e3e6ea;
+  bottom: 0;
+}
