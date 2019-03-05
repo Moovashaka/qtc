@@ -1,3 +1,14 @@
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: 'Lora', serif;
+}
+p {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -9,25 +20,32 @@
 }
 
 .App-header {
+    background: url(./img/sideaudi.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: auto;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ccc;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer {
+background-color: #282c34;
+font-size: .55em;
+line-height: .75;
+color: #e3e6ea;
+opacity: 0.9;
+min-width: 100%;
+bottom: 0;
+position: absolute;
 }
